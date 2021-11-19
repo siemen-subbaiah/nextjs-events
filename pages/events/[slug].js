@@ -36,7 +36,7 @@ const EventPage = ({ event, token }) => {
   };
 
   return (
-    <Layout>
+    <Layout title={event.name}>
       <div className={styles.event}>
         {check && (
           <div className={styles.controls}>

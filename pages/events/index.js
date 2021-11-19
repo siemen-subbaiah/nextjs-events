@@ -11,7 +11,7 @@ const EventPage = ({ events }) => {
   const startIndex = Number(router.query.page) || 1;
 
   return (
-    <Layout title='Home'>
+    <Layout title='Events'>
       <h1>Upcoming Events</h1>
       {events.length === 0 && <h3>No Events to show!</h3>}
       {events?.map((event) => (
