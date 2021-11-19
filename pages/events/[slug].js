@@ -62,6 +62,7 @@ const EventPage = ({ event, token }) => {
               width={960}
               height={600}
               placeholder='blur'
+              alt='event-pic'
             />
           </div>
         )}

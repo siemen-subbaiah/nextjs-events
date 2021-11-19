@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 const Modal = ({ show, onClose, children, title }) => {
   const [isBrowser, setIsBrowser] = useState(false);
 
-  useEffect(() => setIsBrowser(true));
+  useEffect(() => setIsBrowser(true), []);
 
   const handleClose = (e) => {
     e.preventDefault();

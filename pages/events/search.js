@@ -4,7 +4,7 @@ import Layout from '../../components/Layout';
 import { API_URL } from '../../config';
 import Link from 'next/link';
 
-const searchPage = ({ searchTerm }) => {
+const SearchPage = ({ searchTerm }) => {
   const {
     query: { term },
   } = useRouter();
@@ -34,4 +34,4 @@ export const getServerSideProps = async (context) => {
   };
 };
 
-export default searchPage;
+export default SearchPage;

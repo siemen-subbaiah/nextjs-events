@@ -20,6 +20,7 @@ const EventItem = ({ event }) => {
           height={100}
           width={170}
           placeholder='blur'
+          alt='event'
         />
       </div>
       <div className={styles.info}>
